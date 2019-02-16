@@ -1,7 +1,7 @@
 ﻿
 namespace Cruz1974Course.Domain.Entities
 {
-    class Product
+    public class Product
     {
 
         public Product(

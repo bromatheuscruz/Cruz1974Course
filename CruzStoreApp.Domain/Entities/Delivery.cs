@@ -19,5 +19,15 @@ namespace Cruz1974Course.Domain.Entities
         public DateTime EstimatedDeliveryDate { get; private set; }
 
         public EDeliveryStatus Status { get; private set; }
+
+        public void Ship()
+        {
+            Status = EDeliveryStatus.Shipped;
+        }
+
+        public void Cancel()
+        {
+            Status = EDeliveryStatus.Canceled;
+        }
     }
 }

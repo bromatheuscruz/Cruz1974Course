@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Cruz1974Course.Domain.Contracts;
 
 namespace Cruz1974Course.Domain.Entities
 {
-    class OrderItem
+    public class OrderItem : Entity 
     {
         public OrderItem(Product product, decimal quantity)
         {
             Product = product;
             Quantity = quantity;
             Price = product.Price;
+
+            
         }
 
         public Product Product { get; private set; }
