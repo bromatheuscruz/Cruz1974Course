@@ -1,7 +1,9 @@
 ﻿
+using Cruz1974Course.Domain.Contracts;
+
 namespace Cruz1974Course.Domain.Entities
 {
-    public class Product
+    public class Product : Entity
     {
 
         public Product(

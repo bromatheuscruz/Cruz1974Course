@@ -1,11 +1,10 @@
-﻿using Cruz1974Course.Domain.Enums;
+﻿using Cruz1974Course.Domain.Contracts;
+using Cruz1974Course.Domain.Enums;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Cruz1974Course.Domain.Entities
 {
-    public class Delivery
+    public class Delivery : Entity
     {   
         public Delivery(DateTime estimatedDeliveryDate)
         {

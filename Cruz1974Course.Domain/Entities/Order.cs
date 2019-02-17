@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using Cruz1974Course.Domain.Enums;
 using System.Linq;
+using Cruz1974Course.Domain.Contracts;
 
 namespace Cruz1974Course.Domain.Entities
 {
-    public class Order
+    public class Order : Entity
     {
         #region actions
 

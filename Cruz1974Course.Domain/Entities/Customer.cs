@@ -1,10 +1,11 @@
-﻿using Cruz1974Course.Domain.ValueObjects;
+﻿using Cruz1974Course.Domain.Contracts;
+using Cruz1974Course.Domain.ValueObjects;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Cruz1974Course.Domain.Entities
 {
-    public class Customer
+    public class Customer : Entity
     {
         private readonly IList<Address> _addresses;
 
@@ -15,6 +16,10 @@ namespace Cruz1974Course.Domain.Entities
             Email = email;
             Phone = phone;
             _addresses = new List<Address>();
+
+            AddNotifications(name.Notifications);
+            AddNotifications(document.Notifications);
+            AddNotifications(email.Notifications);
         }
 
         public Name Name { get; private set; }
@@ -29,6 +34,7 @@ namespace Cruz1974Course.Domain.Entities
 
         public void AddAddress(Address address)
         {
+            AddNotifications(address.Notifications);
             _addresses.Add(address);
         }
 

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cruz1974Course.Test", "Cruz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cruz1974Course.Domain", "Cruz1974Course.Domain\Cruz1974Course.Domain.csproj", "{165C1EDB-01A1-48A4-A88B-77716E03962D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cruz1974Course.Shared", "Cruz1974Course.Shared\Cruz1974Course.Shared.csproj", "{F01CC1C6-5947-45FF-BF66-EE53B6D5E32F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{165C1EDB-01A1-48A4-A88B-77716E03962D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{165C1EDB-01A1-48A4-A88B-77716E03962D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{165C1EDB-01A1-48A4-A88B-77716E03962D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01CC1C6-5947-45FF-BF66-EE53B6D5E32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01CC1C6-5947-45FF-BF66-EE53B6D5E32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01CC1C6-5947-45FF-BF66-EE53B6D5E32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01CC1C6-5947-45FF-BF66-EE53B6D5E32F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
