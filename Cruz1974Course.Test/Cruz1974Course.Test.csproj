@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CruzStoreApp.Domain\Cruz1974Course.Domain.csproj" />
+    <ProjectReference Include="..\Cruz1974Course.Domain\Cruz1974Course.Domain.csproj" />
   </ItemGroup>
 
 </Project>
